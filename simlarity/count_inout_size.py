@@ -4,7 +4,7 @@ import torch
 
 from blocklize.block_meta import MODEL_BLOCKS
 
-root = '/home/yangxingyi/InfoDrop/simlarity/out/cka_pth'
+root = '/ssd1/ruisi/DeRy/cv_task'
 
 PYTHS = os.listdir(root)
 PYTHS = [os.path.join(root, p) for p in PYTHS if p.endswith('.pth')]
